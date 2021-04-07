@@ -24,7 +24,7 @@ namespace Challenges
                     total += i;
                 }
             }
-
+          
             //Print out the total
             Console.WriteLine(total);
         }
