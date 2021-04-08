@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Challenges.TenDigitFibonacci</StartupObject>
+    <StartupObject>Challenges.LongestCollatz</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FibonacciEvenSum.cs" />
+    <Compile Include="LongestCollatz.cs" />
     <Compile Include="Multiples3And5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TenDigitFibonacci.cs" />
