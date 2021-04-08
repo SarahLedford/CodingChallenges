@@ -37,7 +37,7 @@ namespace Challenges
             //Console.WriteLine($"First Index of 10 Digits: {indexOfNum}\nNumber contained in index: {tenDigitNum}");
 
             //Variables to be counted off of
-            long num2 = 2;
+            long num2 = 1;
             long num1 = 1;
             //Variable to hold the query to of number with 10 digits
             string tenDigitNum;
