@@ -10,6 +10,17 @@ namespace Challenges
     {
         static void Main(string[] args)
         {
+            /*************************INSTRUCTIONS*************************************
+             * The Fibonacci sequence is defined by the recurrence relation:
+             *
+             * Fn = Fn−1 + Fn−2, where F1 = 1, F2 = 1, F3 = 2, .... and F12 = 144. F12 is the first term to contain
+             * three digits. 
+             * What is the index of the first term in the Fibonacci sequence to contain 10 digits?
+             * *************************************************************************
+             */
+
+
+
             //*****************************FIRST ATTEMPT********************************
             // Below was just an attempt to get the main functionality figured out, first.
             // Afterward, I moved on and refactored to make it more dynamic so I didn't 
@@ -69,7 +80,7 @@ namespace Challenges
                 //number was captured in the indexOfNum above, so now all we have left to do is print out the results
                 //and drop out of the loop.
                 if (tenDigitNum != null)
-                {                    
+                {
                     Console.WriteLine($"First Index of 10 Digits: {indexOfNum}\nNumber contained in index: {tenDigitNum}");
                     conditionMet = true;
                 }
